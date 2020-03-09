@@ -12,7 +12,9 @@ from torchvision import datasets
 from torchvision import transforms
 
 import models
-from utils import Bar, Logger, AverageMeter, accuracy, mkdir_p, savefig
+#from utils import Bar, Logger, AverageMeter, accuracy, mkdir_p, savefig
+from utils import Logger, AverageMeter, accuracy, mkdir_p, savefig
+from progress.bar import Bar as Bar
 
 
 class Solver(object):
